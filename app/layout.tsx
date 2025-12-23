@@ -20,12 +20,14 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Nero - Advanced Photo Editing",
-  description: "Convert your photos to stunning monochrome with Nero's sophisticated algorithms. Drag and drop for real-time conversion.",
+  title: "Nero | Monochrome Craft, Refined",
+  description:
+    "Convert your photos to stunning monochrome with Nero's sophisticated algorithms. Drag and drop for real-time conversion.",
   openGraph: {
-    title: "Nero - Photo Editing App",
-    description: "Drop a photo, reveal its essence. Nero's conversion algorithm extracts emotion from your images.",
-    url: "https://nero-website.com",
+    title: "Nero | Monochrome Craft, Refined",
+    description:
+      "Reveal the essence in every photograph. Nero renders expressive black‑and‑white through tuned luminance mapping, pre‑calibrated tone curves, and GPU‑driven artisan shaders—on an infinite canvas built for focus.",
+    url: "https://www.neroeditor.app/",
     siteName: "Nero",
     images: [
       {
@@ -40,7 +42,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Nero - Advanced Photo Editing",
-    description: "Convert your photos to stunning monochrome with Nero's sophisticated algorithms.",
+    description:
+      "Convert your photos to stunning monochrome with Nero's sophisticated algorithms.",
     images: ["/cover-image-canvas.png"],
   },
   viewport: "width=device-width, initial-scale=1",
