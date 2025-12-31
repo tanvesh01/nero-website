@@ -66,10 +66,13 @@ export default function Home() {
         <h1 className="text-7xl mb-4 font-medium text-gray-900 dark:text-white font-serif normal-case">
           Nero
         </h1>
-        <button className="uppercase flex items-center gap-2 bg-orange-500 mb-4 px-3 py-1 font-mono font-medium">
+        <a
+          href="https://github.com/tanvesh01/nero-editor-releases/releases/download/v0.6.1/Nero_0.6.1_universal.dmg"
+          className="uppercase flex items-center gap-2 bg-orange-500 mb-4 px-3 py-1 font-mono font-medium"
+        >
           <ArrowDownTrayIcon className="w-5 h-5" />
           Download beta now
-        </button>
+        </a>
 
         <section className="mb-12">
           <p className="text-lg text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
