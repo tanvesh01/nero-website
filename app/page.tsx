@@ -68,7 +68,7 @@ export default function Home() {
         </h1>
         <a
           href="https://github.com/tanvesh01/nero-editor-releases/releases/download/v0.6.1/Nero_0.6.1_universal.dmg"
-          className="uppercase flex items-center gap-2 bg-orange-500 mb-4 px-3 py-1 font-mono font-medium"
+          className="uppercase flex items-center gap-2 bg-orange-500 mb-4 px-3 py-1 font-mono font-medium relative z-10 cursor-pointer"
         >
           <ArrowDownTrayIcon className="w-5 h-5" />
           Download beta now
